@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">truckaddadriver</string>
+    <string name="title_activity_maps">Truck Adda Driver</string>
 </resources>

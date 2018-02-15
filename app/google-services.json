@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "139401349399-h9iucerkpq0t39b9ftjvng8vnmt081vn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zaylabs.truckadda",
+            "certificate_hash": "3b8608d4beb9dc1f74c41a3b3cdb09595e45a9f0"
+          }
+        },
+        {
           "client_id": "139401349399-ev8ml3b1e9012su53oimldcvbm83974q.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139401349399-ev8ml3b1e9012su53oimldcvbm83974q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
@@ -46,6 +59,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "139401349399-ogkgqmt08r9lbn9pi9cg9k7d35fbe8nv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zaylabs.truckaddadriver",
+            "certificate_hash": "3b8608d4beb9dc1f74c41a3b3cdb09595e45a9f0"
+          }
+        },
+        {
           "client_id": "139401349399-ev8ml3b1e9012su53oimldcvbm83974q.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -60,8 +81,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139401349399-ev8ml3b1e9012su53oimldcvbm83974q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
