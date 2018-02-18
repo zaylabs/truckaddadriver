@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Truck Adda</string>
+    <string name="app_name">Truck Adda Driver</string>
     <string name="title_activity_maps">Truck Adda</string>
     <string name="title_activity_login">Sign in</string>
 
@@ -72,8 +72,8 @@
     <string name="d_reg">Registration Number</string>
     <string name="d_confirm">Confirm</string>
     <string name="d_back">Back</string>
-
-
+    <string name="settings">Profile</string>
+    <string name="history">History</string>
 
 
 </resources>

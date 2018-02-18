@@ -17,7 +17,7 @@
         />
 
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/d_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"
@@ -25,7 +25,7 @@
         android:layout_marginBottom="20sp"/>
 
     <EditText
-        android:id="@+id/phone"
+        android:id="@+id/d_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20sp"
@@ -33,7 +33,7 @@
         android:hint="@string/d_phone"
         android:inputType="phone" />
     <EditText
-        android:id="@+id/car"
+        android:id="@+id/d_reg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@null"

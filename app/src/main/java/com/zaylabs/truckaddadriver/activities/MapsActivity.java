@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -63,8 +64,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     Location mLastLocation;
     LocationRequest mLocationRequest;
 
-    /* Raza private Button mLogout, mSettings, mRideStatus, mHistory;*/
-    private Button mRideStatus,mLogout;
+    private Button mLogout, mSettings, mRideStatus, mHistory;
+
 
     private Switch mWorkingSwitch;
 
@@ -120,10 +121,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
 
-        //R     mSettings = (Button) findViewById(R.id.settings);
+        mSettings = (Button) findViewById(R.id.settings);
         mLogout = (Button) findViewById(R.id.logout);
         mRideStatus = (Button) findViewById(R.id.rideStatus);
-        //R mHistory = (Button) findViewById(R.id.history);
+        mHistory = (Button) findViewById(R.id.history);
         mRideStatus.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -159,10 +160,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 return;
             }
         });
-        /*mSettings.setOnClickListener(new View.OnClickListener() {
+        mSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MapActivity.this, DriverSettingsActivity.class);
+                Intent intent = new Intent(MapsActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 return;
             }
@@ -170,13 +171,13 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mHistory.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MapActivity.this, HistoryActivity.class);
+                Intent intent = new Intent(MapsActivity.this, HistoryActivity.class);
                 intent.putExtra("customerOrDriver", "Drivers");
                 startActivity(intent);
                 return;
             }
         });
-        getAssignedCustomer();*/
+        getAssignedCustomer();
     }
 
 

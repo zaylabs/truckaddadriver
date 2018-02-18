@@ -10,33 +10,40 @@
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <Button
-                android:layout_weight="1"
+                android:id="@+id/logout"
+                style="@style/AppTheme.AppBarOverlay"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:id="@+id/logout"
-                android:text="@string/logout"/>
-            <!--    <Button
-                    android:layout_weight="1"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/history"
-                    android:text="history"/>
-                <Button
-                    android:layout_weight="1"
-                    android:layout_gravity="end"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/settings"
-                    android:text="Settings"/>-->
-            </LinearLayout>
+                android:text="@string/logout"
+                android:theme="@style/AppTheme.AppBarOverlay" />
+
+            <Button
+                android:id="@+id/history"
+                style="@style/AppTheme.AppBarOverlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/history"
+                android:theme="@style/AppTheme.AppBarOverlay" />
+
+            <Button
+                android:id="@+id/settings"
+                style="@style/AppTheme.AppBarOverlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/settings"
+                android:theme="@style/AppTheme.AppBarOverlay" />
+
+        </LinearLayout>
         <Switch
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
